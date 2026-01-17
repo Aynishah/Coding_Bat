@@ -21,6 +21,11 @@ public class String1 {
         return out.substring(0,2) + word + out.substring(2,4);
     }
 
+    public String extraEnd(String str) {
+        String lasttwo = str.substring(str.length() - 2);
+        return lasttwo + lasttwo + lasttwo;
+    }
+
 
 
 
