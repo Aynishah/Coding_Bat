@@ -98,6 +98,15 @@ public class String1 {
             return str.substring(first - 1, first + 1);
         }
 
+    public boolean endsLy(String str) {
+        boolean ly = true;
+        if (str.endsWith("ly")){
+            return ly ;
+        } else {
+            return !ly;
+        }
+    }
+
 
 
 
