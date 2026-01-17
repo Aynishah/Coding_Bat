@@ -84,6 +84,14 @@ public class String1 {
         }
     }
 
+    public String withouEnd2(String str) {
+        if (str.length() > 2){
+            int middle = str.length() - 1;
+            return str.substring(1,middle);
+        } else {
+            return "";
+        }
+
 
 
 
