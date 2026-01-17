@@ -111,6 +111,18 @@ public class String1 {
         return str.substring(0, n) + str.substring(str.length() - n);
     }
 
+    public String twoChar(String str, int index) {
+        String st = "";
+        if(index < 0 || index >= str.length()-1){
+            st = str.substring(0,2);
+        } else {
+            st = str.substring(index, index+2);
+        }
+        return st;
+    }
+
+
+
 
 
 
