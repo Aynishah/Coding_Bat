@@ -58,6 +58,16 @@ public class String1 {
         return a.substring(1) + b.substring(1);
     }
 
+    public String left2(String str) {
+        if (str.length()>2){
+            String firstletter = str.substring(0,2);
+            String other = str.substring(2);
+            return other + firstletter;
+        } else{
+            return str;
+        }
+    }
+
 
 
 
