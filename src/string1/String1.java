@@ -39,6 +39,11 @@ public class String1 {
         return str.substring(0,half);
     }
 
+    public String withoutEnd(String str) {
+        int middle = (str.length() - 1);
+        return str.substring(1,middle);
+    }
+
 
 
 
