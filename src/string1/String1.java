@@ -74,6 +74,16 @@ public class String1 {
         return end + start;
     }
 
+    public String theEnd(String str, boolean front) {
+        if (front == true){
+            String str1 = str.substring(0,1);
+            return str1;
+        }else {
+            String str1 = str.substring(str.length()-1);
+            return str1;
+        }
+    }
+
 
 
 
