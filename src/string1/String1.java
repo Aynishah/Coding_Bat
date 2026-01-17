@@ -13,5 +13,9 @@ public class String1 {
         return a + b + b + a;
     }
 
+    public String makeTags(String tag, String word) {
+        return "<" + tag + ">" + word + "<" + "/" + tag + ">";
+    }
+
 
 }
