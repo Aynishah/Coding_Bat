@@ -44,6 +44,16 @@ public class String1 {
         return str.substring(1,middle);
     }
 
+    public String comboString(String a, String b) {
+        if (a.length() > b.length()){
+            return b + a + b;
+        } else if (a.length() < b.length()){
+            return a + b + a;
+        } else {
+            return a+b;
+        }
+    }
+
 
 
 
